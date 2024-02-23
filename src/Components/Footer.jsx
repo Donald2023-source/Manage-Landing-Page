@@ -6,7 +6,7 @@ const Footer =() => {
     }
     return(
         <>
-        <div className="grid grid-cols-1 place-items-center gap-8 lg:flexlg:justify-around p-20 h-fit lg:h-[17rem]" style={myStyle}>
+        <div className="grid grid-cols-1 place-items-center gap-8 lg:flex lg:justify-around p-20 h-fit lg:h-[17rem]" style={myStyle}>
             <div>
                 <img src="src/images/logo.svg"/>
 
