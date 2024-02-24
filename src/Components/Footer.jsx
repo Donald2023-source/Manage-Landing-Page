@@ -4,11 +4,13 @@ const Footer =() => {
         backgroundColor: 'hsl(233, 12%, 13%)',
         color: 'white'
     }
+
+    const logo = "Manage-Page/src/assets/logo.svg"
     return(
         <>
         <div className="grid grid-cols-1 place-items-center gap-8 lg:flex lg:justify-around p-20 h-fit lg:h-[17rem]" style={myStyle}>
             <div>
-                <img src="src/images/logo.svg"/>
+                <img src={logo}/>
 
                 <span className="flex mt-12 gap-4">
                     <img src="src/images/icon-facebook.svg" alt="" />
