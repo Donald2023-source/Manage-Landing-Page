@@ -7,11 +7,13 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const logo = "src/assets/logo.svg"
+
 
   return (
     <>
       <div className="lg:w-full flex lg:justify-around justify-between px-3 items-center lg:px-20 py-5">
-        <img src="Manage-Page/src/assets/logo.svg" alt="" />
+        <img src={logo} alt="" />
 
         <div className="lg:hidden">
 
