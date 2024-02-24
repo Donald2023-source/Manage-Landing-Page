@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <>
       <div className="lg:w-full flex lg:justify-around justify-between px-3 items-center lg:px-20 py-5">
-        <img src="src/images/logo.svg" alt="" />
+        <img src="src/assets/logo.svg" alt="" />
 
         <div className="lg:hidden">
 
