@@ -1,11 +1,11 @@
+import logo from "src/assets/logo.svg";
 const Footer =() => {
 
     const myStyle = {
         backgroundColor: 'hsl(233, 12%, 13%)',
         color: 'white'
-    }
+    } 
 
-    const logo = "src/assets/logo.svg"
     return(
         <>
         <div className="grid grid-cols-1 place-items-center gap-8 lg:flex lg:justify-around p-20 h-fit lg:h-[17rem]" style={myStyle}>
