@@ -1,4 +1,5 @@
-import logo from "src/assets/logo.svg";
+import logo from "src/assets/logo.svg"
+
 const Footer =() => {
 
     const myStyle = {
