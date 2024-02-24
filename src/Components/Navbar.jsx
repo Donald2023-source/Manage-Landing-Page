@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "src/assets/logo.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -7,7 +8,7 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  const logo = "src/assets/logo.svg"
+ add
 
 
   return (
