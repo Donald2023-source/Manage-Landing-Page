@@ -5,7 +5,7 @@ const Footer =() => {
         color: 'white'
     }
 
-    const logo = "assets/logo.svg"
+    const logo = "src/assets/logo.svg"
     return(
         <>
         <div className="grid grid-cols-1 place-items-center gap-8 lg:flex lg:justify-around p-20 h-fit lg:h-[17rem]" style={myStyle}>
