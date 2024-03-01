@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-const logo = 'src/assets/logo.svg';
+import logo from '../assets/logo.svg'
 
 
 
