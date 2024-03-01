@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import logo from "src/assets/logo.svg";
+const logo = 'src/assets/logo.svg';
+
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -7,8 +9,6 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-
- add
 
 
   return (

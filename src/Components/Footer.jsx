@@ -9,7 +9,6 @@ const Footer =() => {
         <>
         <div className="grid grid-cols-1 place-items-center gap-8 lg:flex lg:justify-around p-20 h-fit lg:h-[17rem]" style={myStyle}>
             <div>
-                <img src={logo}/>
 
                 <span className="flex mt-12 gap-4">
                     <img src="src/images/icon-facebook.svg" alt="" />
