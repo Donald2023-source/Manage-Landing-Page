@@ -1,3 +1,10 @@
+import facebook from '../assets/icon-facebook.svg'
+import Youtube from '../assets/icon-youtube.svg'
+import Twiiter from '../assets/icon-twitter.svg'
+import Printerest from '../assets/icon-pinterest.svg'
+import Instagram from '../assets/icon-instagram.svg'
+
+import logo from '../assets/logo.svg'
 const Footer =() => {
 
     const myStyle = {
@@ -9,13 +16,13 @@ const Footer =() => {
         <>
         <div className="grid grid-cols-1 place-items-center gap-8 lg:flex lg:justify-around p-20 h-fit lg:h-[17rem]" style={myStyle}>
             <div>
-
+                <img src={logo} alt="" />
                 <span className="flex mt-12 gap-4">
-                    <img src="src/images/icon-facebook.svg" alt="" />
-                    <img src="src/images/icon-youtube.svg" alt="" />
-                    <img src="src/images/icon-twitter.svg" alt="" />
-                    <img src="src/images/icon-pinterest.svg" alt="" />
-                    <img src="src/images/icon-instagram.svg" alt="" />
+                    <img src={facebook} alt="" />
+                    <img src={Youtube} alt="" />
+                    <img src={Twiiter} alt="" />
+                    <img src={Printerest} alt="" />
+                    <img src={Instagram} alt="" />
                 </span>
             </div>
 

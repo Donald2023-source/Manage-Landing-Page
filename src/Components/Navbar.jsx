@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from '../assets/logo.svg'
-
-
+import burger from '../assets/icon-hamburger.svg'
+import close from '../assets/icon-close.svg'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
 
           {nav ? (
             
-              <img onClick={handleNav}  className="cursor-pointer" src="src/images/icon-close.svg" alt="" />
+              <img onClick={handleNav}  className="cursor-pointer" src={close} alt="" />
             
           )
 
@@ -29,7 +29,7 @@ const Navbar = () => {
              <img
           onClick={handleNav}
             className="cursor-pointer"
-            src="src/images/icon-hamburger.svg"
+            src={burger}
             alt=""
           />
           )}
@@ -41,8 +41,8 @@ const Navbar = () => {
         <ul
           className={
             nav
-              ? "lg:hidden fixed top-20 left-5  w-96 h-fit z-50 flex flex-col gap-7 items-center shadow-xl py-5 rounded-xl bg-white"
-              : "lg:flex gap-10 hidden"
+              ? "lg:hidden absolute top-20 left-14  w-96 h-fit z-50 flex flex-col gap-7 items-center shadow-xl py-5 rounded-xl bg-white"
+              : "lg:flex  gap-10 hidden"
         }
         >
           <li className="hover:text-gray-400 cursor-pointer transition ease-in duration-100">
