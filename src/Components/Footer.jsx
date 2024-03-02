@@ -14,7 +14,7 @@ const Footer =() => {
 
     return(
         <>
-        <div className="grid grid-cols-1 place-items-center gap-8 lg:flex lg:justify-around p-20 h-fit lg:h-[17rem]" style={myStyle}>
+        <div className="grid grid-cols-1 place-items-center w-screen gap-8 lg:flex lg:justify-around p-20 h-fit lg:h-[17rem]" style={myStyle}>
             <div>
                 <img src={logo} alt="" />
                 <span className="flex mt-12 gap-4">
@@ -46,7 +46,7 @@ const Footer =() => {
             </div>
 
             <div className="flex gap-8 lg:flex items-center lg:gap-8">
-                <input className="bg-white p-4 rounded-2xl" type="text" placeholder="Upadates in your inbox"/>
+                <input className="bg-white p-4 rounded-2xl w-[12rem] text-sm" type="text" placeholder="Upadates in your inbox"/>
                 <button className="p-4 bg-orange-600 rounded-[40%] w-16">Go</button>
             </div>
         </div>

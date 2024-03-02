@@ -41,8 +41,8 @@ const Navbar = () => {
         <ul
           className={
             nav
-              ? "lg:hidden absolute top-20 left-14  w-96 h-fit z-50 flex flex-col gap-7 items-center shadow-xl py-5 rounded-xl bg-white"
-              : "lg:flex  gap-10 hidden"
+              ? "lg:hidden absolute top-20 left-[-0.7rem] w-96 h-fit z-50 flex flex-col gap-7 items-center shadow-xl py-5 rounded-xl bg-white"
+              : "lg:flex gap-10 hidden"
         }
         >
           <li className="hover:text-gray-400 cursor-pointer transition ease-in duration-100">

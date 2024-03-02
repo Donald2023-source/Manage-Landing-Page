@@ -1,10 +1,11 @@
+import Richard from '../assets/avatar-richard.png'
 const Testimonial3 = () => {
     return(
         <>
         
         <div>  
                 <div className="card bg-gray-100 w-96 flex flex-col items-center gap-7 px-5">
-                   <img className="w-16" src="src/images/avatar-richard.png" alt="" />
+                   <img className="w-16" src={Richard} alt="" />
                    <h4 className="font-bold">Richards Watts</h4>
 
                    <div>
